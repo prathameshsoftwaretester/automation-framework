@@ -36,8 +36,6 @@ This project combines both UI Automation and API Automation in a single Maven fr
 
 # Project Structure
 
-## Project Structure
-
 ```text
 AutomationFramework
 │
@@ -141,6 +139,7 @@ Right Click on testng.xml → Run As → TestNG Suite
 
 # Clone Repository
 
+Clone the repository using:
 git clone https://github.com/prathameshsoftwaretester/automation-framework.git
 
 
