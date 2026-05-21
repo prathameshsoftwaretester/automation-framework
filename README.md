@@ -36,18 +36,40 @@ This project combines both UI Automation and API Automation in a single Maven fr
 
 # Project Structure
 
-bash
-src/test/java
+## Project Structure
+
+```text
+AutomationFramework
+│
+├── src/test/java
 │
 ├── api.tests
+│   ├── AlbumsTest.java
+│   ├── CommentsTest.java
+│   ├── PhotosTest.java
+│   ├── PostsTest.java
+│   └── UsersTest.java
 │
 ├── ui.base
+│   └── BaseTest.java
+│
 ├── ui.pages
+│   ├── CartPage.java
+│   ├── CheckoutPage.java
+│   ├── InventoryPage.java
+│   └── LoginPage.java
+│
 ├── ui.tests
-
-
----
-
+│   ├── CartTest.java
+│   ├── CheckoutTest.java
+│   ├── LockedOutUserTest.java
+│   ├── LoginTest.java
+│   └── SortingTest.java
+│
+├── pom.xml
+│
+└── testng.xml
+```
 # UI Automation Test Scenarios
 
 ## TC-01 Login Validation
@@ -105,15 +127,13 @@ API automation implemented using Rest Assured with JSONPlaceholder APIs.
 
 # Run Project Using Maven
 
-bash
-mvn clean test
+mvn test
 
 
 ---
 
 # Run TestNG Suite
 
-bash
 Right Click on testng.xml → Run As → TestNG Suite
 
 
@@ -121,7 +141,6 @@ Right Click on testng.xml → Run As → TestNG Suite
 
 # Clone Repository
 
-bash
 git clone https://github.com/prathameshsoftwaretester/automation-framework.git
 
 
