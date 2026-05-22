@@ -83,6 +83,11 @@ public class CommentsTest {
             System.out.println(tld
                     + " : "
                     + tldMap.get(tld));
+            
+            System.out.println("Total count for " + tld + " : " 
+                    + tldMap.get(tld).size());
+            
+            System.out.println();
         }
     }
 }
